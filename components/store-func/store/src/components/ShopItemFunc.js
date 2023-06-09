@@ -19,8 +19,6 @@ const ShopItemFunc = (props) => {
   )
 }
 
-export default ShopItemFunc;
-
 ShopItemFunc.propTypes = {
   item: PropTypes.shape({
     brand: PropTypes.string.isRequired,
@@ -31,3 +29,5 @@ ShopItemFunc.propTypes = {
     price: PropTypes.number.isRequired
   }).isRequired
 };
+
+export default ShopItemFunc;
